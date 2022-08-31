@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-16T18:06:09 IST" name="Suite" finished-at="2022-08-16T18:06:33 IST" duration-ms="23615">
+    <groups>
+      <group name="HomePage">
+        <method signature="HomePageTest.validateHomePageLogo()[pri:1, instance:TestLayer.HomePageTest@2e385cce]" name="validateHomePageLogo" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.validateTitleHompePage()[pri:2, instance:TestLayer.HomePageTest@2e385cce]" name="validateTitleHompePage" class="TestLayer.HomePageTest"/>
+        <method signature="HomePageTest.valiadateUrlHomePage()[pri:3, instance:TestLayer.HomePageTest@2e385cce]" name="valiadateUrlHomePage" class="TestLayer.HomePageTest"/>
+      </group> <!-- HomePage -->
+      <group name="PIMPage">
+        <method signature="PIMPageTest.clickonpimlink()[pri:1, instance:TestLayer.PIMPageTest@2ddc9a9f]" name="clickonpimlink" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.valiadateUrlPIMPage()[pri:2, instance:TestLayer.PIMPageTest@2ddc9a9f]" name="valiadateUrlPIMPage" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validatepimfunctions()[pri:3, instance:TestLayer.PIMPageTest@2ddc9a9f]" name="validatepimfunctions" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validatepimfunctions2()[pri:4, instance:TestLayer.PIMPageTest@2ddc9a9f]" name="validatepimfunctions2" class="TestLayer.PIMPageTest"/>
+        <method signature="PIMPageTest.validatedropdownpimpage2()[pri:5, instance:TestLayer.PIMPageTest@2ddc9a9f]" name="validatedropdownpimpage2" class="TestLayer.PIMPageTest"/>
+      </group> <!-- PIMPage -->
+      <group name="LoginPage">
+        <method signature="LoginPageTest.validateLoginFunctions()[pri:0, instance:TestLayer.LoginPageTest@60099951]" name="validateLoginFunctions" class="TestLayer.LoginPageTest"/>
+      </group> <!-- LoginPage -->
+    </groups>
+    <test started-at="2022-08-16T18:06:09 IST" name="Test" finished-at="2022-08-16T18:06:33 IST" duration-ms="23615">
+      <class name="TestLayer.HomePageTest">
+        <test-method signature="validateHomePageLogo()[pri:1, instance:TestLayer.HomePageTest@2e385cce]" started-at="2022-08-16T18:06:23 IST" name="validateHomePageLogo" depends-on-groups="LoginPage" finished-at="2022-08-16T18:06:23 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageLogo -->
+        <test-method signature="validateTitleHompePage()[pri:2, instance:TestLayer.HomePageTest@2e385cce]" started-at="2022-08-16T18:06:23 IST" name="validateTitleHompePage" depends-on-groups="LoginPage" finished-at="2022-08-16T18:06:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleHompePage -->
+        <test-method signature="valiadateUrlHomePage()[pri:3, instance:TestLayer.HomePageTest@2e385cce]" started-at="2022-08-16T18:06:23 IST" name="valiadateUrlHomePage" depends-on-groups="LoginPage" finished-at="2022-08-16T18:06:23 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadateUrlHomePage -->
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.PIMPageTest">
+        <test-method signature="clickonpimlink()[pri:1, instance:TestLayer.PIMPageTest@2ddc9a9f]" started-at="2022-08-16T18:06:23 IST" name="clickonpimlink" depends-on-groups="HomePage" finished-at="2022-08-16T18:06:26 IST" duration-ms="3075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonpimlink -->
+        <test-method signature="valiadateUrlPIMPage()[pri:2, instance:TestLayer.PIMPageTest@2ddc9a9f]" started-at="2022-08-16T18:06:26 IST" name="valiadateUrlPIMPage" depends-on-groups="HomePage" finished-at="2022-08-16T18:06:26 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valiadateUrlPIMPage -->
+        <test-method signature="validatepimfunctions()[pri:3, instance:TestLayer.PIMPageTest@2ddc9a9f]" started-at="2022-08-16T18:06:26 IST" name="validatepimfunctions" depends-on-groups="HomePage" finished-at="2022-08-16T18:06:31 IST" duration-ms="4563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatepimfunctions -->
+        <test-method signature="validatepimfunctions2()[pri:4, instance:TestLayer.PIMPageTest@2ddc9a9f]" started-at="2022-08-16T18:06:31 IST" name="validatepimfunctions2" depends-on-groups="HomePage" finished-at="2022-08-16T18:06:31 IST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatepimfunctions2 -->
+        <test-method signature="validatedropdownpimpage2()[pri:5, instance:TestLayer.PIMPageTest@2ddc9a9f]" started-at="2022-08-16T18:06:31 IST" name="validatedropdownpimpage2" depends-on-groups="HomePage" finished-at="2022-08-16T18:06:33 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatedropdownpimpage2 -->
+      </class> <!-- TestLayer.PIMPageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.LoginPageTest@60099951]" started-at="2022-08-16T18:06:09 IST" name="setup" finished-at="2022-08-16T18:06:17 IST" duration-ms="8122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateLoginFunctions()[pri:0, instance:TestLayer.LoginPageTest@60099951]" started-at="2022-08-16T18:06:17 IST" name="validateLoginFunctions" finished-at="2022-08-16T18:06:23 IST" duration-ms="5898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginFunctions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.LoginPageTest@60099951]" started-at="2022-08-16T18:06:33 IST" name="tearDown" finished-at="2022-08-16T18:06:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
